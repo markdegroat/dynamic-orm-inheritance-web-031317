@@ -1,6 +1,6 @@
 require_relative "../config/environment.rb"
 require 'active_support/inflector'
-
+#I HAVE READ AND UNDERSTAND HOW INHERITANCE CAN BE USED TO ABSTRACT AWAY THE MESSINESS OF ORMS SO IT JUST WORKS BEHIND THE SCENES
 class InteractiveRecord
 
   def self.table_name
